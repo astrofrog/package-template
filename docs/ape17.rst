@@ -355,6 +355,8 @@ To make sure that pytest works properly, you can set a few options in a
    doctest_plus = enabled
    text_file_format = rst
    addopts = --doctest-rst
+   doctest_norecursedirs =
+       */setup_package.py
 
 For the ``testpaths`` line, make sure you replace ``my_package`` with the name
 of your package. This section will already exist if you copied the ``setup.cfg``
